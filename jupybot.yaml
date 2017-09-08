@@ -3,7 +3,7 @@ commands:
     name: Weather Forecast
     type: file
     notebook_file: weather_forecast_command.ipynb
-    regex: weather forecast for <CITY> in <COUNTRY>
+    regexp: weather forecast for <CITY> in <COUNTRY>
     params:
       - CITY: (.*)
       - COUNRY: (.*)
@@ -12,7 +12,7 @@ commands:
     name: Temperature Forecast
     type: file
     notebook_file: temperature_forecast_command.ipynb
-    regex: temp forecast from <START_YEAR> to <END_YEAR>
+    regexp: temp forecast from <START_YEAR> to <END_YEAR>
     params:
       - START_YEAR: ([0-9]+)
       - END_YEAR: ([0-9]+)
