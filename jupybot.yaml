@@ -25,4 +25,4 @@ commands:
       - END_YEAR:
         name: END_YEAR
         regexp: ([0-9]+)
-    hep_text: Run this command to get temperature forecast! 
+    help_text: Run this command to get temperature forecast! 
