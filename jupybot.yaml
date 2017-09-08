@@ -1,0 +1,18 @@
+commands:
+  - weather_forecast:
+    name: Weather Forecast
+    type: file
+    notebook: weather_forecast_command.ipynb
+    regex: weather forecast for <CITY> in <COUNTRY>
+    params:
+      - CITY: (.*)
+      - COUNRY: (.*)
+    help_text: This command is weather forecast
+  - temperature_forecast:
+    name: Temperature Forecast
+    notebook: temperature_forecast_command.ipynb
+    regex: 	temp forecast from <START_YEAR> to <END_YEAR>
+    params:
+      - START_YEAR: ([0-9]+)
+      - END_YEAR: ([0-9]+)
+    hep_text: Run this command to get temperature forecast! 
