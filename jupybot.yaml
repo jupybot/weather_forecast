@@ -10,6 +10,7 @@ commands:
     help_text: This command is weather forecast
   - temperature_forecast:
     name: Temperature Forecast
+    type: file
     notebook: temperature_forecast_command.ipynb
     regex: temp forecast from <START_YEAR> to <END_YEAR>
     params:
