@@ -11,7 +11,7 @@ commands:
   - temperature_forecast:
     name: Temperature Forecast
     notebook: temperature_forecast_command.ipynb
-    regex: 	temp forecast from <START_YEAR> to <END_YEAR>
+    regex: temp forecast from <START_YEAR> to <END_YEAR>
     params:
       - START_YEAR: ([0-9]+)
       - END_YEAR: ([0-9]+)
